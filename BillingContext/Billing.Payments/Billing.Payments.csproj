@@ -49,7 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application\PaymentService.cs" />
+    <Compile Include="Infrastructure\CreditCardRepository.cs" />
     <Compile Include="Infrastructure\EndpointConfig.cs" />
+    <Compile Include="Infrastructure\PaymentProvidercs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
